@@ -120,7 +120,6 @@ void measureTime(void (*sortFunc)(int[], int), int arr[], int n) {
     cout << duration.count() << " microseconds" << endl;
 }
 
-// Fungsi utama
 int main() {
     int sizes[] = {10, 100, 500, 1000, 10000};
     for (int size : sizes) {
